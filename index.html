@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by mahada shiva shankar</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neurotransmitters Information</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Neurotransmitters Information</h1>
+        <p>Click on a neurotransmitter to learn more about it. Use the search bar to find specific ones.</p>
+    </header>
+    
+    <div class="container">
+        <input type="text" id="search" placeholder="Search for neurotransmitter...">
+        
+        <ul id="neurotransmitter-list">
+            <li onclick="showInfo('dopamine')">Dopamine</li>
+            <li onclick="showInfo('serotonin')">Serotonin</li>
+            <li onclick="showInfo('norepinephrine')">Norepinephrine</li>
+            <li onclick="showInfo('acetylcholine')">Acetylcholine</li>
+            <li onclick="showInfo('glutamate')">Glutamate</li>
+            <li onclick="showInfo('GABA')">GABA</li>
+        </ul>
+        
+        <div id="info-box" class="info-box"></div>
+    </div>
+    
+    <footer>
+        <p>For more information:</p>
+        <ul>
+            <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4709035/" target="_blank">NCBI - Neurotransmitters</a></li>
+            <li><a href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/neurotransmitters" target="_blank">Johns Hopkins - Neurotransmitters</a></li>
+            <li><a href="https://www.psychologytoday.com/us/basics/neurotransmitters" target="_blank">Psychology Today - Neurotransmitters</a></li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
